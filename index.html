@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Site</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="/Images/WhatsApp_Image_2022-10-09_at_7.57.27_PM-removebg-preview.png">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#project-section">Projects</a></li>
+                    <li><a href="#skil-section">Skills</a></li>
+                    <li><a href="#edu-section">Education</a></li>
+                    <li><a href="#exp-section">Experience</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Front End Developer</p>
+                <h1>Hi, I'm <span>Hemant </span></br> From India</h1>
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-1">
+                    <img src="/Images/slazzer-edit-image.png">
+                </div>
+                <div class="col-2 ">
+                    <h1 class="title">About Me</h1>
+                    <p>My name is Hemant Rathia. I am 22 years old. I was born in Kharsia (C.G.). My father's name is Mr. Bhog Singh Rathia and He is a Head Constable in BSF. My mother's name is Mrs. Saraswati Rathia and She is housewife. I have two younger sisters.<br>Currently I am pursuing Bachlors of Technology in Computer Science Department from OP Jindal University, Raiganj (C.G.) with 8.36 CGPA till 6th Semester.<br>My hobbies are watching facts and technical videos from youtube and also playing online games.<br>My strengths are that I am self-motivated and passion for learning new things.My weakness is my communication skills but for overcome that I started practicing and now I improved myself much better.<br>I am passionate, motivated and extremely responsible who is always forward to put all the things that I have learned during my course period to practically solve the real world problems with my Knowledge and expertise.</p>
+                    <div class="tab-titles">
+                        <div class="tab-links active-link" id="a">Skills <i class="fas fa-chevron-down"></i></div>
+                        <div class="tab-links active-link" id="b">Experience <i class="fas fa-chevron-down"></i></div>
+                        <div class="tab-links active-link" id="c">Education <i class="fas fa-chevron-down"></i></div>
+                    </div>
+                    <div class="tab-content skill-active" id="skills">
+                        <ul>
+                            <li><span>Programming Languages</span><br>C, C++, Python</li>
+            
+
+                            <li><span>Front End Development</span><br>Html, Css, Javascript, React Js</li>
+                            
+
+                            <li><span>Operating System</span><br>Windows OS, Linus OS</li>
+                            
+
+                            <li><span>UI/UX </span><br>Figma</li>
+                            
+
+                            <li><span>Cyber Security </span><br>Networking and Cryptography</li>
+                            
+
+                            <li><span>Blockchain Development </span><br>Solidity, Bitcoin, Ethereum, Hyperledger</li>
+                            
+
+                        </ul>
+                    </div>
+
+                    <div class="tab-content education-active" id="education">
+                        <ul>
+                            <li><span>2016-2017</span><br>Higher Secondary School</li>
+            
+
+                            <li><span>2018-2019</span><br>Senior Secondary School</li>
+                            
+
+                            <li><span>2019-2023</span><br>B-Tech in CSE</li>
+                            
+
+                        </ul>
+                    </div>
+
+                    <div class="tab-content experience-active" id="experience">
+                        <ul>
+                            <li><span>12<sup>th</sup> Sept, 2022 - Present</span><br>Front-End Developer Internship at AIST</li>
+            
+
+                            <li><span>14<sup>th</sup> Sept, 2022 - Present</span><br>Internship at Beat The Virus Startup</li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- -------------------------------------project section-----------------------------------------------     -->
+    <div id="project-section">
+        <h1 class="projects">Projects</h1>
+        <div class="project-section-container">
+
+            <div class="project-card">
+                <div class="card-image">
+                    <img src="/Images/netflix.png">
+                </div>
+                <div class="card-text">
+                    <h2>Netflix-Clone</h2>
+                    <br><p>HTML | CSS | Javascript | React JS</p>
+                    <br><pre> <a href="https://github.com/hemant5678/netflix-clone" target="_blank">[ Github ]</a>     <a href="https://hemant-netflix-clone.web.app/" target="_blank">[ LIVE ]</a></pre>
+                </div>
+
+            </div>
+
+            <div class="project-card">
+                <div class="card-image">
+                    <img src="/Images/markdown.png">
+                </div>
+                <div class="card-text">
+                    <h2>MarkDown Web App</h2>
+                    <br><p>HTML | CSS | Javascript | React JS</p>
+                    <br><pre> <a href="https://github.com/hemant5678/markdown-editor" target="_blank">[ Github ]</a>     <a href="https://react-firebase-59fbf.web.app/" target="_blank">[ LIVE ]</a></pre>
+                </div>
+
+            </div>
+
+            <div class="project-card">
+                <div class="card-image">
+                    <img src="/Images/api rest cont.png">
+                </div>
+                <div class="card-text">
+                    <h2>Rest Countries API with Dark Mode Switcher </h2>
+                    <br><p>HTML | CSS | Javascript | API</p>
+                    <br><pre> <a href="https://github.com/hemant5678/Rest-Countries-API.github.io" target="_blank">[ Github ]</a>     <a href="https://hemant5678.github.io/Rest-Countries-API.github.io/" target="_blank">[ LIVE ]</a></pre>
+                </div>
+
+            </div>
+
+            <div class="project-card">
+                <div class="card-image">
+                    <img src="/Images/ui of aist.png">
+                </div>
+                <div class="card-text">
+                    <h2>UI of AIST website clone</h2>
+                    <br><p>HTML | CSS | Javascript | Figma</p>
+                    <br><pre> <a href="https://github.com/hemant5678/UI-clone-of-Website.github.io" target="_blank">[ Github ]</a>     <a href="https://hemant5678.github.io/UI-clone-of-Website.github.io/" target="_blank">[ LIVE ]</a></pre>
+                </div>
+
+            </div>
+
+            <div class="project-card">
+                <div class="card-image">
+                    <img src="/Images/note.png">
+                </div>
+                <div class="card-text">
+                    <h2>Short Note Web App</h2>
+                    <br><p>HTML | CSS | Javascript</p>
+                    <br><pre> <a href="https://github.com/hemant5678/NoteDown.github.io" target="_blank">[ Github ]</a>     <a href="https://hemant5678.github.io/NoteDown.github.io/" target="_blank">[ LIVE ]</a></pre>
+                </div>
+
+            </div>
+
+            <div class="project-card">
+                <div class="card-image">
+                    <img src="/Images/daily expenses.png">
+                </div>
+                <div class="card-text">
+                    <h2>Daily expenses Recoder</h2>
+                    <br><p>HTML | CSS | Javascript | React JS</p>
+                    <br><pre> <a href="https://github.com/hemant5678/Daily-Expenses" target="_blank">[ Github ]</a>     <a href="https://hemant5678.github.io/my-react-app/" target="_blank">[ LIVE ]</a></pre>
+                </div>
+
+            </div>
+
+            <div class="project-card">
+                <div class="card-image">
+                    <img src="/Images/si ui.png">
+                </div>
+                <div class="card-text">
+                    <h2>Simple UI with Javascript</h2>
+                    <br><p>HTML | CSS | Javascript</p>
+                    <br><pre> <a href="https://github.com/hemant5678/SimpleUI_JavaScript.github.io" target="_blank">[ Github ]</a>     <a href="https://hemant5678.github.io/SimpleUI_JavaScript.github.io/" target="_blank">[ LIVE ]</a></pre>
+                </div>
+
+            </div>
+
+            
+
+        </div>
+
+    </div>
+<!-- ----------------------------------project section End------------------------------------------     -->
+
+
+
+
+
+
+<!-- ----------------------------------skills section ------------------------------------------     -->
+
+<div id="skil-section">
+    <h1 class="projects">SKILLS</h1>
+    <div class="skil-container">
+        <div class="skil-card">
+            <div class="skil-image">
+                <img src="/Images/programming.jpg">
+            </div>
+            <div class="skil-text">
+                <h2>Programming Languages</h2>
+                <br><p>C | C++ | Python</p>
+            </div>
+        </div>
+
+        <div class="skil-card">
+            <div class="skil-image">
+                <img src="/Images/front end.png">
+            </div>
+            <div class="skil-text">
+                <h2>Front-End Development</h2>
+                <br><p>HTML | CSS | Javascript | React</p>
+            </div>
+        </div>
+
+        <div class="skil-card">
+            <div class="skil-image">
+                <img src="/Images/OS.png">
+            </div>
+            <div class="skil-text">
+                <h2>Operating System</h2>
+                <br><p>Windows OS | Linux OS</p>
+            </div>
+        </div>
+
+        <div class="skil-card">
+            <div class="skil-image">
+                <img src="/Images/ui ux.jpg">
+            </div>
+            <div class="skil-text">
+                <h2>UI/UX</h2>
+                <br><p>Figma</p>
+            </div>
+        </div>
+
+        <div class="skil-card">
+            <div class="skil-image">
+                <img src="/Images/Cyber-Security-Hacker.jpeg">
+            </div>
+            <div class="skil-text">
+                <h2>Cyber Security</h2>
+                <br><p>Networking & Cryptography</p>
+            </div>
+        </div>
+
+        <div class="skil-card">
+            <div class="skil-image">
+                <img src="/Images/blockchain.jpg">
+            </div>
+            <div class="skil-text">
+                <h2>Blockchain Technology</h2>
+                <br><p>Solidity | Bitcoin | Ethereum | Hyperledger</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- ----------------------------------skills section End------------------------------------------     -->
+
+<!-- education -->
+
+<div id="edu-section">
+    <h1 class="projects">EDUCATION</h1>
+    <div class="edu-container">
+        <div class="edu">
+            <div class="edu-image">
+                <img src="/Images/kv.jpg">
+            </div>
+            <div class="edu-content">
+                <h2><span> Higher Secondary School</span><br> Kendriya Vidhyalaya, Raiganj</h2>
+                <br><p>8.6 CPGA</p><br>
+                <br> <a href="https://www.google.co.in/maps/place/Kendriya+Vidyalaya+Raiganj+BSF+Govindpur/@25.6766053,88.1782729,16.25z/data=!4m12!1m6!3m5!1s0x39e4d569ed440e15:0xa9b7f7e76bd1d3d1!2sKendriya+Vidyalaya+Raiganj+BSF+Govindpur!8m2!3d25.6767867!4d88.1819517!3m4!1s0x39e4d569ed440e15:0xa9b7f7e76bd1d3d1!8m2!3d25.6767867!4d88.1819517?hl=en&authuser=0" target="_blank"><div class="location"> <i class="fa-solid fa-location-dot"></i><p>M5GJ+PQV, SH 10A, Mirual, West Bengal 733130</p></div></a>
+            </div>
+            <div class="date"><span>[ 2016 - 2017 ]</span></div>
+        </div><hr class="h" >
+        <div class="edu">
+            <div class="edu-image">
+                <img src="/Images/kv.jpg">
+            </div>
+            <div class="edu-content">
+                <h2><span>Senior Secondary School</span> <br> Kendriya Vidhyalaya, Raiganj</h2>
+                <br><p>Percentage - 70%</p><br>
+                <br> <a href="https://www.google.co.in/maps/place/Kendriya+Vidyalaya+Raiganj+BSF+Govindpur/@25.6766053,88.1782729,16.25z/data=!4m12!1m6!3m5!1s0x39e4d569ed440e15:0xa9b7f7e76bd1d3d1!2sKendriya+Vidyalaya+Raiganj+BSF+Govindpur!8m2!3d25.6767867!4d88.1819517!3m4!1s0x39e4d569ed440e15:0xa9b7f7e76bd1d3d1!8m2!3d25.6767867!4d88.1819517?hl=en&authuser=0" target="_blank"><div class="location"> <i class="fa-solid fa-location-dot"></i><p>M5GJ+PQV, SH 10A, Mirual, West Bengal 733130</p></div></a>
+            </div>
+            <div class="date"><span>[ 2018 - 2019 ]</span></div>
+        </div><hr class="h">
+        <div class="edu">
+            <div class="edu-image">
+                <img src="/Images/opju.jpg">
+            </div>
+            <div class="edu-content">
+                <h2><span>B-Tech </span>in CSE <br> OP Jindal University, Raigarh</h2>
+                <br><p>8.36  CPGA  till  6th  Semester</p><br>
+                <br> <a href="https://www.google.co.in/maps/place/O.P.+Jindal+University+(OPJU)/@22.0616775,83.3460697,17z/data=!3m1!4b1!4m5!3m4!1s0x3a2738d9e7507349:0xc2992d50446a6f0!8m2!3d22.0616775!4d83.3482584?hl=en&authuser=0" target="_blank"><div class="location"> <i class="fa-solid fa-location-dot"></i><p>Punjipathra, Raigarh, Chhattisgarh 496109</p></div></a>
+            </div>
+            <div class="date"><span>[ 2019 - 2023 ]</span></div>
+        </div><hr class="h">
+    </div>
+</div>
+
+<!-- education -->
+
+<!-- experience -->
+<div id="exp-section">
+    <h1 class="projects">EXPERIENCE</h1>
+    <div class="exp-container">
+        <div class="exp">
+            <div class="exp-image">
+                <img src="/Images/aist logo.svg">
+            </div>
+            <div class="exp-content">
+                <h2>Internship at AIST</h2><br>
+                <p>Front-End Intern Position<br><br>Duration - 2 Months</p><br><br><a href="https://akashedu.in/home" target="_blank">Website Link</a>
+            </div>
+            <div class="exp-date">14<sup>th</sup> September, 2022 - Present</div>
+        </div>
+
+        <div class="exp">
+            <div class="exp-image btv-img">
+                <img src="/Images/btv.jpg">
+            </div>
+            <div class="exp-content">
+                <h2>Internship at Beat The Virus Startup</h2><br>
+                <p>Intern Position<br><br>Duration - 6 Months</p><br><br><a href="http://www.increaseimmunity.org/" target="_blank">Website Link</a>
+            </div>
+            <div class="exp-date">14<sup>th</sup> September, 2022 - Present</div>
+        </div>
+    </div>
+</div>
+
+
+<!-- experience -->
+
+<!-- contact -->
+
+<div id="contact">
+    <div class="con-container">
+        <div class="row">
+            <div class="con-left">
+                <h1>Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>hemantrathia5678@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+91 8918482861</p>
+                <div class="social-media">
+                    <a href="https://www.facebook.com/profile.php?id=100018591766868" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/hemant5678_/" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://twitter.com/HemantRathia9" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/hemant-rathia-07731b204/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/hemant5678" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://t.me/hemant56789" target="_blank"><i class="fa-brands fa-telegram"></i></a>
+                </div>
+                <a href="/Images/resume.pdf" download="" class="btn">Download Resume</a>
+            </div>
+            <div class="con-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email ID" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="copyright">
+    <p>Copyright © HEMANT. Made by Hemant</p>
+</div>
+
+
+
+<!-- contact -->
+
+
+
+
+
+    <script src="index.js"></script>
+    
+</body>
+</html>
